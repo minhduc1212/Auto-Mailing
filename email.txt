@@ -1,0 +1,13 @@
+EHLO localhost
+AUTH LOGIN
+bWluaGR1YzZlMTJAZ21haWwuY29t
+c3RhdyB0Z3BmIHBzbXAgeGd1Yw==
+MAIL FROM: <minhduc6e12@gmail.com>
+rcpt to: <minhduc1q2w@gmail.com>
+DATA
+Subject: Tieu de Test Email
+From: minhduc6e12@gmail.com
+To: minhduc1q2w@gmail.com
+
+test
+.
