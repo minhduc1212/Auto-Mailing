@@ -11,6 +11,9 @@ APP_PASS  = os.getenv('app_pass')
 RECEIVER_EMAIL = 'minhduc1q2w@gmail.com'
 
 def main():
+    print("Tupe your email content ")
+    content = input()
+    
     print(f"--- Connecting to {SMTP_SERVER}... ---")
     
     # Tạo kết nối
@@ -30,7 +33,7 @@ def main():
                     From: {SENDER_EMAIL}
                     To: {RECEIVER_EMAIL}
 
-                    Hi from the second tesst
+                    {content}
             """
         #send
         server.sendmail(SENDER_EMAIL, RECEIVER_EMAIL, msg)
